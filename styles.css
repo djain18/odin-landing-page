@@ -19,7 +19,7 @@ nav h1{
 
 ul{
     display: flex;
-    gap: 15px;
+    gap: 18px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -88,5 +88,31 @@ header{
 }
 
 a:hover{
-    color: blue;
+    color: #00bfff
+}
+
+h2{
+    text-align: center;
+    padding: 30px;
+}
+
+.card-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card-body-1{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    flex-wrap: wrap;
 }
